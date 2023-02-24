@@ -153,3 +153,9 @@ footer > div > p {
 .socials {
   padding-left: 10px;
 }
+
+@media screen and (max-width: 667) {
+  .access > img {
+    width: 100px;
+  }
+}
