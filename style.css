@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+}
+
+body,
+p,
+img,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: hsl(201, 11%, 66%);
+}
+
+button {
+  cursor: pointer;
+}
+.hero,
+.snippets,
+.access,
+.top-workflow,
+.CTA {
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 32%;
+  text-align: center;
+}
+
+.hero {
+  background-image: url('images/bg-header-desktop.png');
+}
+
+.logo {
+  margin-top: 20%;
+  margin-bottom: 5%;
+  width: 100px;
+}
+
+.hero-button {
+  display: flex;
+  gap: 20px;
+}
+
+.btnhero {
+  padding: 15px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.btnhero1 {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btnhero2 {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.snippets {
+  margin-top: 100px;
+}
+
+.benefits {
+  display: flex;
+  padding-right: 1%;
+  margin-top: 100px;
+  gap: 7%;
+}
+
+.benefits > img {
+  width: 50%;
+}
+
+.access {
+  margin-top: 100px;
+}
+
+.access > img {
+  width: max-content;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto;
+  gap: 3%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.logo-div {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.logo-div > img {
+  width: 100px;
+}
+
+.CTA {
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 2% 10%;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: end;
+  align-items: center;
+  background-color: hsl(0, 4%, 90%);
+  color: black;
+}
+
+.footer-logo {
+  width: 50px;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 5%;
+  justify-content: flex-start;
+  color: black;
+}
+
+footer > div > p {
+  color: black;
+}
+
+.socials {
+  padding-left: 10px;
+}
